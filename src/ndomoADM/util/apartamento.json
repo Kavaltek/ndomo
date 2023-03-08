@@ -1,0 +1,79 @@
+{
+  "apartamento":[
+    {
+      "id": 1 ,
+      "numero": 2,
+      "apartamento": "XL 5",
+      "predio": "Zona lesta 2",
+      "tipologia": "T2",
+      "situação": "Livre",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "apartamento": "XL 5",
+      "predio": "Zona lesta 2",
+      "tipologia": "T2",
+      "situação": "Livre",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "apartamento": "XL 5",
+      "predio": "Zona lesta 2",
+      "tipologia": "T2",
+      "situação": "Livre",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "apartamento": "XL 5",
+      "predio": "Zona lesta 2",
+      "tipologia": "T2",
+      "situação": "Livre",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "apartamento": "XL 5",
+      "predio": "Zona lesta 2",
+      "tipologia": "T2",
+      "situação": "Livre",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "apartamento": "XL 5",
+      "predio": "Zona lesta 2",
+      "tipologia": "T2",
+      "situação": "Livre",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "apartamento": "XL 5",
+      "predio": "Zona lesta 2",
+      "tipologia": "T2",
+      "situação": "Livre",
+      "estado" : "Estado"
+    }
+    ,{
+      "id": 1 ,
+      "numero": 2,
+      "apartamento": "XL 5",
+      "predio": "Zona lesta 2",
+      "tipologia": "T2",
+      "situação": "Livre",
+      "estado" : "Estado"
+    }
+    ,{
+      "id": 1 ,
+      "numero": 2,
+      "apartamento": "XL 5",
+      "predio": "Zona lesta 2",
+      "tipologia": "T2",
+      "situação": "Livre",
+      "estado" : "Estado"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+.outh{
+  .section-background{
+    background-image: url(./../assets/img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }.section-from{
+    background: #fff;
+    font-size: 14px;
+    form{
+      .link-creae-con{
+        color: rgba(17, 17, 17, 0.514);
+        &:hover{
+          color: #111;
+        }
+      }
+      .from-label{
+        margin-bottom: 28px;
+        .label{
+          margin-top: -10px;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-bottom: -5px;
+          z-index: 1 !important;
+          span{
+            background: white;
+            padding-left: 5px;
+            color: rgba(17, 17, 17, 0.493);
+            padding-right: 5px;
+          }
+        }
+        .input-group{
+          z-index: 0;
+          .form-control{
+            border: none;
+            font-size: 14px;
+            margin-top: 6px;
+            padding-top: 2px;
+            padding-left: 15px;
+            padding-bottom: 10px;
+            box-shadow: none;
+            outline: none;
+          }
+          .input-group-text{
+            border: none;
+            background: none;
+            padding-bottom: 10px;
+          }
+        }
+      }
+      button{
+        height: 45px;
+        font-size: 14px;
+      }
+      .button{
+        padding-top: 11px;
+        height: 45px;
+        font-size: 14px;
+      }
+    }
+  }
+}

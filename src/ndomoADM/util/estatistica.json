@@ -1,0 +1,44 @@
+{
+  "estatistica":[
+    {
+      "id": 1,
+      "total usuario": "",
+      "numero": 3000
+    },
+    {
+      "id": 1,
+      "Ppredios": "",
+      "numero": 30
+    },
+    {
+      "id": 1,
+      "apartamento": "",
+      "numero": 3000
+    },
+    {
+      "id": 1,
+      "porteiro": "",
+      "numero": 60
+    },
+    {
+      "id": 1,
+      "moradores": "",
+      "numero": 6000
+    },
+    {
+      "id": 1,
+      "administradores": "",
+      "numero": 30
+    },
+    {
+      "id": 1,
+      "tipologias": "",
+      "numero": 3000
+    },
+    {
+      "id": 1,
+      "servicos": "",
+      "numero": 400
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./menu.scss";
+@import "./table.scss";
+@import "./chat.scss";
+@import "./outh.scss";
+//
+@font-face {
+  font-family: CircularStdBook;
+  src: url(../assets/fonts/CircularStdBook.ttf);
+}
+body{
+  font-family: CircularStdBook;
+  background: #f5f5f5;
+  overflow: hidden !important;
+}
+.h-100{
+  height: 100vh !important;
+  overflow: auto;
+}
+.w-100{
+  width: 100% !important;
+}
+.font-13{
+  font-size: 13px;
+}
+.font-14{
+  font-size: 14px;
+}
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;background: #333742;
+}::-webkit-scrollbar-thumb:hover {
+  transition: 0.3s;
+  background: #474f61;
+  cursor: pointer;
+}
+.card{
+   border: none !important;
+   border-radius: 10px;
+   font-size: 14px;
+   h6{
+    font-size: 15px;
+    margin-bottom: 0px;
+    opacity: 0.6;
+   }
+   .icon-card{
+    font-size: 23px !important;
+    opacity: 0.9;
+   }
+}
+.modal{
+  .modal-dialog{
+    .modal-content{
+      border: none !important;
+      border-radius: 20px;
+      .modal-header{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 25px;
+        padding-bottom: 10px !important;
+        border: none !important;
+        .modal-title{
+          font-size: 16px !important;
+          font-weight: bold;
+        }
+        .btn-close{
+          font-size: 13px !important;
+          margin-top: -20px;
+          display: none;
+        }
+      }
+      .modal-body{
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+        .card-form-modal{
+          .label{
+            background: rgb(255, 255, 255);
+            margin-top: -10px !important;
+            color: rgba(17, 17, 17, 0.808);
+            max-width: 150px;
+            font-size: 13px;
+            width: 50px;
+            padding-left: 6px;
+            padding-right: 6px;
+            font-weight:700;
+          }
+          padding-left: 10px;
+          padding-right: 18px;
+          border-radius: 10px;
+          .form-control{
+            margin-bottom: 10px;
+            padding: 0px;
+            border: none;
+            padding-left: 7px;
+            font-size: 13px;
+            box-shadow: none !important;
+            outline: none !important;
+          }
+        }
+      }
+      .modal-footer{
+        padding-left: 30px;
+        padding-right: 30px;
+        .btn{
+          font-size: 12px;
+          height: 40px;
+          border: none !important;
+          border-radius: 10px;
+        }
+        .btn-light{
+          background: none;
+          &:hover{
+            background: #f5f5f5;
+          }
+        }
+      }
+    }
+  }
+}
+.card-perfil{
+  .card-header{
+    background: none;
+    border: none;
+    h5{
+      color: #111 !important;
+      font-size: 18px;
+    }
+  }
+  .card-footer{
+    background: none;
+    text-align: right;
+    .btn{
+          font-size: 12px;
+          height: 40px;
+          border: none !important;
+          border-radius: 10px;
+        }
+        .btn-light{
+          background: none;
+          &:hover{
+            background: #f5f5f5;
+          }
+        }
+  }
+  .card-form-modal{
+    .label{
+      span{
+        background: rgb(255, 255, 255);
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      margin-top: -10px !important;
+      color: rgba(17, 17, 17, 0.808);
+      font-size: 13px;
+      padding-left: 6px;
+      padding-right: 6px;
+      font-weight:700;
+    }
+    padding-left: 10px;
+    padding-right: 18px;
+    border-radius: 10px;
+    .form-control{
+      margin-bottom: 10px;
+      padding: 0px;
+      border: none;
+      padding-left: 10px;
+      font-size: 13px;
+      box-shadow: none !important;
+      outline: none !important;
+    }
+  }
+}
+.mini-avatar{
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100px;
+  transition: 0.1s;
+  img {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100px;
+    transition: 0.1s;
+  }
+}
+.avatar-perfil {
+  cursor: pointer;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100px;
+  transition: 0.1s;
+  img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100px;
+    transition: 0.1s;
+  }
+}
+.loading{
+  width: 100%;
+  position: absolute;
+  height: 50vh;
+}

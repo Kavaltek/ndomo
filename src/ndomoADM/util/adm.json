@@ -1,0 +1,45 @@
+{
+  "adm":[
+    {
+      "id": 1 ,
+      "nome": "Daniel Filipe",
+      "number": 1,
+      "email": "daniel@gmail.com",
+      "telefone": "999 999 999",
+      "nivel": "adm",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "nome": "Daniel Filipe",
+      "number": 1,
+      "email": "daniel@gmail.com",
+      "telefone": "999 999 999",
+      "nivel": "adm",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "nome": "Daniel Filipe",
+      "number": 1,
+      "email": "daniel@gmail.com",
+      "telefone": "999 999 999",
+      "nivel": "adm",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "nome": "Daniel Filipe",
+      "number": 1,
+      "email": "daniel@gmail.com",
+      "telefone": "999 999 999",
+      "nivel": "adm",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "nome": "Daniel Filipe",
+      "number": 1,
+      "email": "daniel@gmail.com",
+      "telefone": "999 999 999",
+      "nivel": "adm",
+      "Estado" : "Estado"
+    }
+  ]
+}

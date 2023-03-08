@@ -1,0 +1,41 @@
+{
+  "servicos":[
+    {
+      "id": 1 ,
+      "numero": 2,
+      "servico": "Empresada",
+      "compartimento": "Zona lesta 2",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "servico": "Empresada",
+      "compartimento": "Zona lesta 2",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "servico": "Empresada",
+      "compartimento": "Zona lesta 2",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "servico": "Empresada",
+      "compartimento": "Zona lesta 2",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "servico": "Empresada",
+      "compartimento": "Zona lesta 2",
+      "estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 2,
+      "servico": "Empresada",
+      "compartimento": "Zona lesta 2",
+      "estado" : "Estado"
+    }
+  ]
+}

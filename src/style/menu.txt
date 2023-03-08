@@ -1,0 +1,109 @@
+
+
+.menu{
+  width: 235px;
+  max-width:235px;
+  min-width:235px;
+  height: 100vh;
+  overflow: auto;
+  font-size: 14px;
+  color: #878789;
+  background: #1c1e23;
+  padding-bottom: 50px;
+  .logo{
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid #87878921;
+    img{
+      margin-left: -20px;
+      width: 160px;
+    }
+  }
+  .main-menu{
+    padding-top: 25px !important;
+    border-bottom: 1px solid #87878921;
+    .font-title{
+      margin-left: 15px !important;
+    }
+    ul{
+      padding: 0px !important;
+      margin-top: 20px;
+      .a-link{
+        margin-bottom: 5px;
+        display: inline-block;
+        line-height: 1.5;
+        color: #878789;
+        text-align: left;
+        vertical-align: middle;
+        cursor: pointer;
+        width: 100%;
+        padding: 0.575rem 0.75rem;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 6px;
+        transition: color .15s ease-in-out;
+       .icon-menu{
+         font-size: 19px;
+         margin-top: -4px;
+       }
+       .icon-ChevronDown{
+        margin-top: 2px;
+       }
+      }.a-link:hover{
+        background: #878789;
+        color: #fff;
+      }.a-link.active{
+        background: #878789;
+        color: #fff;
+      }
+      .a-link.disabled{
+        background: none !important;
+        color: #878789 !important;
+        cursor: default;
+        opacity: 0.4;
+      }
+      .menuSub{
+        padding-left: 40px !important;
+        padding-bottom: 10px;
+        .a-link-sub{
+          display: inline-block;
+          vertical-align: middle;
+          width: 100%;
+          color: #878789;
+          text-decoration: none;
+          margin-bottom: 5px;
+          transition: color .15s ease-in-out;
+        }
+        .a-link-sub:hover{
+          color: #fff;
+        }
+        .a-link-sub.active{
+          color: #fff;
+        }
+      }  
+    }
+  }
+  .menu-rodape{
+    border-top: 1px solid #87878921;
+    background: #1c1e23;
+    .avatar{
+      font-size: 20px;
+      margin-top: -5px;
+    }
+    width: 235px;
+    
+    .btn-dropdown{
+      background: none !important;
+      border: none !important;
+    }
+    .dropdown-menu{
+      border-radius: 10px !important;
+      border: none !important;
+      font-size: 14px;
+      .dropdown-item:hover{
+        background: #3e4149 !important;
+        color: #fff !important;
+      }
+    }
+  }
+}

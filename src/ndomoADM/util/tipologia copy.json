@@ -1,0 +1,61 @@
+{
+  "tipologia":[
+    {
+      "id": 1 ,
+      "numero": 22,
+      "predio":"XL 4",
+      "totalAp": 5,
+      "tipologia": "T5",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 22,
+      "predio":"XL 4",
+      "totalAp": 5,
+      "tipologia": "T5",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 22,
+      "predio":"XL 4",
+      "totalAp": 5,
+      "tipologia": "T5",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 22,
+      "predio":"XL 4",
+      "totalAp": 5,
+      "tipologia": "T5",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 22,
+      "predio":"XL 4",
+      "totalAp": 5,
+      "tipologia": "T5",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 22,
+      "predio":"XL 4",
+      "totalAp": 5,
+      "tipologia": "T5",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 22,
+      "predio":"XL 4",
+      "totalAp": 5,
+      "tipologia": "T5",
+      "Estado" : "Estado"
+    },{
+      "id": 1 ,
+      "numero": 22,
+      "predio":"XL 4",
+      "totalAp": 5,
+      "tipologia": "T5",
+      "Estado" : "Estado"
+    }
+  ]
+}

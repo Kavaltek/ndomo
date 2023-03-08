@@ -1,0 +1,152 @@
+.chat{
+  width: 100%;
+  .list-reclm{
+    height: 100vh;
+    overflow: auto;
+    width: 21%;
+    border-right: 0.3px solid #a8a8b354;
+    font-size: 14px;
+    .list-main-search{
+      .sbTitle{
+      font-size: 12px;
+      opacity: 0.4;
+      }
+      .input-group{
+        border-bottom: 1px solid #111;
+        .form-control{
+        background: none;
+        font-size: 14px !important;
+        box-shadow: none !important;
+        outline: none !important;
+      }
+      .input-group-text{
+        background: none;
+        font-size: 14px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+      }
+      
+    }
+    
+  }
+  .chat-menseger{
+    .navbar{
+      background: #fff;
+      border-bottom: 0.7px solid #a8a8b354;
+      height: 69px;
+      padding-left: 20px;
+      padding-right: 20px;
+      h6{
+        margin-top: 10px;
+      }
+    }
+    width: 50%;
+    height: 100vh;
+    background: #ffffff;
+    .avatar {
+      cursor: pointer;
+      width: 2.1rem;
+      height: 2.1rem;
+      border-radius: 100px;
+    
+      img {
+        width: 2.1rem;
+        height: 2.1rem;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 100px;
+      }
+    }
+    
+      .chatBP{
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 80vh;
+        overflow: auto;
+        .container{
+        .separator{
+          font-size: 12px;
+          color: #a8a8b3d3;
+          margin: 32px 0;
+          display: flex;
+          align-items: center;
+          &::before{
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #a8a8b385;
+            margin-right: 20px;
+          }
+          &::after{
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #a8a8b385;
+            margin-left: 20px;
+          }
+        }
+        .card-menseger-users{
+          .name-users{
+            font-size: 13px;
+          }
+          .time-users{
+            font-size: 11px;
+            opacity: 0.4;
+          }
+          .card{
+            width: 70%;
+            background: #40ff1928;
+            border-top-left-radius: 0px !important;
+            font-size: 13px !important;
+          }
+        }
+        .card-menseger-user{
+          .card-text-user{
+            width: 70%;
+          }
+          .name-user{
+            font-size: 13px;
+          }
+          .time-user{
+            font-size: 11px;
+            opacity: 0.4;
+          }
+          .card{
+            background: #0000000c;
+            border-top-right-radius: 0px !important;
+            font-size: 13px !important;
+          }
+        }
+      }
+      }
+    
+    .form-text-menseger{
+      background: #fff;
+      border-top: 0.7px solid #a8a8b354;
+      width: 42.3%;
+      padding: 20px;
+      .input-group{
+        .btn{
+          border-radius: 10px;
+          padding-bottom: 5px;
+          height: 35px !important;
+          font-size: 13px;
+        }
+        .borRadiLift{
+          border-top-left-radius: 10px !important;
+          border-bottom-left-radius: 10px !important;
+        }
+        .form-control{
+          height: 35px;
+          border: none;
+          font-size: 14px;
+          box-shadow: none !important;
+          outline: none !important;
+          border-radius: 10px !important;
+        }
+      }
+    }
+  }
+  }
+  

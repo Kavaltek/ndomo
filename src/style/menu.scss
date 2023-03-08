@@ -1,0 +1,121 @@
+.menu{
+  width: 235px;
+  max-width:235px;
+  min-width:235px;
+  height: 100vh;
+  overflow: auto;
+  font-size: 13px;
+  color: #878789;
+  background: #1c1e23;
+  padding-bottom: 90px;
+  .text-menu{
+    margin-left: 14px;
+    font-size: 13px;
+  }
+  .logo{
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid #87878921;
+    img{
+      margin-left: -100px;
+      width: 80px;
+    }
+  }
+  .menuHelp{
+    padding-top: 25px !important;
+    border-top: 1px solid #87878921;
+  }
+  .a-link-disabled{
+    margin-bottom: 5px;
+    display: inline-block;
+    line-height: 1.5;
+    color: #878789;
+    text-align: left;
+    vertical-align: middle;
+    cursor: default;
+    width: 100%;
+    padding: 0.575rem 0.75rem;
+    text-decoration: none !important;
+    font-size: 13px;
+    border-radius: 6px;
+    transition: color .15s ease-in-out;
+    justify-content: space-between !important;
+    align-items: center !important;
+    opacity: 0.4;
+    .icon-menu{
+      font-size: 19px;
+      margin-top: -4px;
+    }
+  }
+  .menu-rodape{
+    border-top: 1px solid #87878921;
+    background: #1c1e23;
+    .avatar{
+      font-size: 20px;
+      margin-top: -5px;
+    }
+    width: 235px;
+    
+    .btn-dropdown{
+      background: none !important;
+      border: none !important;
+    }
+    .dropdown-menu{
+      border-radius: 10px !important;
+      border: none !important;
+      font-size: 14px;
+      .dropdown-item:hover{
+        background: #3e4149 !important;
+        color: #fff !important;
+      }
+    }
+  }
+}
+.menuSub{
+  .a-link{
+    margin-bottom: 5px;
+    display: inline-block;
+    line-height: 1.5;
+    color: #878789;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.575rem 0.75rem;
+    text-decoration: none !important;
+    font-size: 13px;
+    border-radius: 6px;
+    transition: color .15s ease-in-out;
+    justify-content: space-between !important;
+    align-items: center !important;
+    &:hover{
+      background: #878789;
+      color: #fff !important;
+    }
+    .icon-menu{
+      font-size: 19px;
+      margin-top: -3px;
+      margin-right: 20px;
+    }
+  }.a-link.active{
+    background: #878789;
+    color: #fff;
+  }
+}
+.menuSubDrop{
+  text-decoration: none !important;
+  font-size: 13px;
+  .menuSuDp{
+    transition: 0.5s;
+    text-decoration: none !important;
+    color: #878789;
+    margin-left: 40px
+  };
+  .menuSuDp.active{
+    color: #fff;
+  };
+  .menuSuDp:hover{
+    transition: 0.5s;
+    color: #fff;
+  };
+}

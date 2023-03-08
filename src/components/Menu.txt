@@ -1,0 +1,98 @@
+import React, {useState, PureComponentn} from 'react';
+import logo from './../assets/logo.svg'
+import { 
+  HiOutlineViewGrid,
+  HiOutlineUserGroup,
+  HiOutlineDocumentText,
+  HiOutlineSpeakerphone,
+  HiOutlineClipboardList,
+  HiOutlineHome,
+  HiOutlineCog,
+  HiOutlineChat,
+  HiOutlineChevronDown,
+  HiOutlineUser
+ } from "react-icons/hi";
+ import {Collapse, Dropdown} from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+
+export function Menu() {
+  const [open, setOpen] = useState(false);
+  const [open2, setOpen2] = useState(false);
+  const [open3, setOpen3] = useState(false);
+  return (
+    <div className="menu">
+      <div className="logo">
+        <img src={logo} alt="" />
+      </div>
+      <div className="main-menu container">
+        <font className='font-title'>Meu menu</font>
+        <ul>
+          <NavLink to="/dashbord" className='a-link'> <HiOutlineViewGrid className='icon-menu me-1'/> Painel de controle</NavLink>
+          <a href='#' className='a-link d-flex justify-content-between'onClick={() => setOpen(!open)} > <font><HiOutlineHome className='icon-menu me-1'/> Portaria</font> <HiOutlineChevronDown className='icon-ChevronDown'/></a>
+          <Collapse in={open}>
+            <div className='collapse-menu'>
+            <div className='menuSub'>
+              <ul className='p-0 m-0'>
+              <a href="" className='a-link-sub'>Visitantes</a>
+              <a href="" className='a-link-sub'>Funcionarios</a>
+              <a href="" className='a-link-sub'>Moradores</a>
+              <a href="" className='a-link-sub'>Porteiro</a>
+              </ul>
+            </div>
+            </div>
+          </Collapse>
+          <NavLink to='/announcements' className='a-link'> <HiOutlineSpeakerphone className='icon-menu me-1'/> Comunicados</NavLink>
+          <a href='#' className='a-link d-flex justify-content-between' onClick={() => setOpen2(!open2)}> <font><HiOutlineClipboardList className='icon-menu me-1'/> Reclamações</font> <HiOutlineChevronDown className='icon-ChevronDown'/></a>
+          <Collapse in={open2}>
+            <div className='collapse-menu'>
+            <div className='menuSub'>
+              <ul className='p-0 m-0'>
+              <a href="" className='a-link-sub'>Correntes</a>
+              <a href="" className='a-link-sub'>Garantia</a>
+              </ul>
+            </div>
+            </div>
+          </Collapse>
+          <NavLink to='/documents' className='a-link'> <HiOutlineDocumentText className='icon-menu me-1'/> Documentos</NavLink>
+          <NavLink to='/Residents' className='a-link'> <HiOutlineUserGroup className='icon-menu me-1'/> Moradores</NavLink>
+        </ul>
+      </div>
+      <div className="main-menu container border-bottom-0">
+        <font className='font-title'>Ajuda & Configurações</font>
+        <ul>
+          <a className='a-link disabled' > <HiOutlineChat className='icon-menu me-1'/> Ajuda & Call Center</a>
+          <a href='#' className='a-link  d-flex justify-content-between' onClick={() => setOpen3(!open3)}> <font><HiOutlineCog className='icon-menu me-1'/> Configurações</font> <HiOutlineChevronDown className='icon-ChevronDown'/></a>
+          <Collapse className='collapse-menu' in={open3}>
+            <div className='menuSub'>
+              <ul className='p-0 m-0'>
+              <a href="" className='a-link-sub'>Estrutura</a>
+              <a href="" className='a-link-sub'>Serviços</a>
+              <a href="" className='a-link-sub'>Itens de garantia</a>
+              <a href="" className='a-link-sub'>Usuario do sistema</a>
+              </ul>
+            </div>
+          </Collapse>
+        </ul>
+      </div>
+    <div className="main-menu  border-bottom-0">
+      <div className='d-flex  align-items-center menu-rodape position-absolute p-4 bottom-0 justify-content-between'>
+        <div className='d-flex align-items-center'>
+          <div className="avatar">
+            <HiOutlineUser/>
+          </div>
+          <font className="ms-2">Daniel Filipe</font>
+        </div>
+        <div>
+        <Dropdown>
+          <Dropdown.Toggle className='p-0 btn-dropdown' id="dropdown-basic"/>
+          <Dropdown.Menu className='shadow dropdown-menu'>
+            <Dropdown.Item className='dropdown-item' href="/">Perfil</Dropdown.Item>
+            <Dropdown.Item href="/">Sair</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+        </div>
+      </div>
+    </div>
+    </div>
+  );
+}
